@@ -13084,7 +13084,12 @@ h2, .h2 {
         .catalog_lists .nav-tabs .nav-link {
           border-bottom: 0;
           padding-bottom: 0;
-          text-align: left; } }
+          text-align: left;
+          opacity: 0.6;
+          transition: all 0.3s ease; }
+          .catalog_lists .nav-tabs .nav-link.active {
+            opacity: 1;
+            transition: all 0.3s ease; } }
     @media (max-width: 1599px) {
       .catalog_lists .nav-tabs {
         display: flex;
