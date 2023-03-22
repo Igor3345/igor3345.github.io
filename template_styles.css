@@ -12721,6 +12721,9 @@ h2, .h2 {
     background-color: #2B2B2B;
     opacity: 0.95; }
 
+.swiper-slide {
+  -webkit-transform: translate3d(0, 0, 0) !important; }
+
 .top_slider {
   position: relative; }
   .top_slider .swiper-slide {
