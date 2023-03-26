@@ -12677,6 +12677,25 @@ h2, .h2 {
                 mask: url("./images/section_frame_mobile_mask3.svg");
         -webkit-mask-size: cover;
                 mask-size: cover; } }
+  .section_frame.catalog_frame--catalog4 {
+    min-height: 571px;
+    -webkit-mask: url("./images/section_frame_mask2.svg");
+            mask: url("./images/section_frame_mask2.svg");
+    -webkit-mask-size: cover;
+            mask-size: cover; }
+    @media (max-width: 1440px) {
+      .section_frame.catalog_frame--catalog4 {
+        -webkit-mask: none;
+                mask: none; } }
+    @media (max-width: 991px) {
+      .section_frame.catalog_frame--catalog4 {
+        min-height: 471px; } }
+    @media (max-width: 440px) {
+      .section_frame.catalog_frame--catalog4 {
+        -webkit-mask: url("./images/section_frame_mobile_mask2.svg");
+                mask: url("./images/section_frame_mobile_mask2.svg");
+        -webkit-mask-size: cover;
+                mask-size: cover; } }
   .section_frame.catalog_frame--catalog3 {
     -webkit-mask: url("./images/section_frame_mask3.svg");
             mask: url("./images/section_frame_mask3.svg");
